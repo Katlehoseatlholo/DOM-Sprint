@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(233, 224, 224);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            margin-bottom: 20px;
+        }
+
+        .Title {
+            font-weight: 600;
+            background-color: aquamarine;
+            font-size: 24px;
+            padding: 10px;
+        }
+
+        .Heading {
+            font-weight: 200;
+            background-color: darkgoldenrod;
+            font-size: 18px;
+            padding: 10px;
+            color: white;
+        }
+
+        .About {
+            background-color: lightgray;
+            font-size: 16px;
+            padding: 10px;
+        }
+
+        .theMessageButton,
+        .ClearButton {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+
+        .darkmode {
+            background-color: black;
+            color: white;
+        }
+
+        .Clear {
+            background-color: rgb(136, 238, 195);
+        }
+
+        #sprint {
+            background-color: lightyellow;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+        hr {
+            margin: 10px 0;
+            border: none;
+            border-top: 1px solid gray;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="Title">Welcome to your Codex Dom</div>
+        <hr>
+        <div class="Heading">Codex Dom</div>
+    </section>
+    <section>
+        <div class="About">Here's something about us</div>
+    </section>
+    <button class="theMessageButton">Show Message</button>
+    <div id="sprint"></div>
+    <div class="Clear">This section we want to clear the sprint text</div>
+    <button class="ClearButton">Clear Sprint</button>
+    <hr />
+    <section class="InputSection">
+        <h3 class="Inputs">Enter and show a value</h3>
+        <hr />
+        <input type="text" class="theInputValue">
+        <button class="InputButton">DarkMode</button>
+    </section>
+
+    <script src="codex.js"></script>
+</body>
+
+</html>
